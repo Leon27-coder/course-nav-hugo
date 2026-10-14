@@ -1,0 +1,42 @@
+baseURL               = "http://localhost:1313/"
+languageCode          = "zh-CN"
+title                 = "课程资料导航"
+theme                 = "WebStack-Hugo"
+preserveTaxonomyNames = true
+disablePathToLower    = true
+hasCJKLanguage        = true
+publishDir            = "public"				# 站点静态文件保存目录
+
+
+[params]
+    author        = "Leon"
+    description   = "课程资料导航 | 分类展示 · 标题搜索 · 点击直达"
+    upload        = "#"           # 左侧导航栏的"网站提交"（本地演示未启用）
+    about         = "/about"      # 左侧导航栏的"关于导航"页面(./about)
+    repository    = "https://github.com/shenweiyan/WebStack-Hugo"
+    enablePreLoad = true					# 网站完全打开前预加载动画
+    textPreLoad   = "课程资料导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
+    expandSidebar = false					# 默认展开左侧边导航栏
+    logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
+    defaultLogo   = "assets/images/logos/default.webp"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+    nightMode     = false					# 默认站点为深色(夜间)模式
+    yiyan         = true                         		# 默认启用一言服务
+    fancybox      = true                                        # 使用 Fancybox 实现图片灯箱/放大功能
+
+[params.qweather]
+    key = ""    # 和风天气 key，留空则不显示天气挂件
+
+[params.images]
+    favicon           = "assets/images/bi-favicon.png"
+    searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
+    searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
+    logoExpandLight   = "assets/images/bi-expand-dark.png"
+    logoExpandDark    = "assets/images/bi-expand-light.png"
+    logoCollapseLight = "assets/images/bi.png"
+    logoCollapseDark  = "assets/images/bi.png"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params.footer]
+    copyright = '课程资料导航 · 本地演示站点（基于 WebStack-Hugo 主题，MIT License）<br/>&copy; 2026 By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)<br/>'

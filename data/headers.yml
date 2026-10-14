@@ -1,0 +1,7 @@
+- item: 首页
+  icon: fa fa-home
+  link: "./"
+
+- item: 关于
+  icon: fa fa-info-circle
+  link: "/about"

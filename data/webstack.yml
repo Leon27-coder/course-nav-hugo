@@ -1,0 +1,108 @@
+---
+
+- taxonomy: AI 与大模型
+  icon: fas fa-robot
+  list:
+    - term: 入门课程
+      links:
+        - title: 吴恩达《机器学习》
+          url: https://www.coursera.org/learn/machine-learning
+          description: "Coursera 经典机器学习课程，全球学习人数最多的 AI 入门课。"
+        - title: 李宏毅机器学习
+          url: https://speech.ee.ntu.edu.tw/~hylee/ml/2023-spring.php
+          description: "中文机器学习课程，授课风格幽默，课件全部公开。"
+        - title: DeepLearning.AI 短课程
+          url: https://www.deeplearning.ai/short-courses/
+          description: "吴恩达团队出品，1 小时左右的 LLM 应用短课程。"
+        - title: Fast.ai 实战深度学习
+          url: https://www.fast.ai/
+          description: "代码优先的深度学习课程，先跑通再讲原理。"
+    - term: 大模型进阶
+      links:
+        - title: Hugging Face NLP 课程
+          url: https://huggingface.co/learn/nlp-course/chapter1/1
+          description: "Transformers 生态系统教程，可在线运行代码。"
+        - title: 动手学深度学习
+          url: https://zh.d2l.ai/
+          description: "李沐等编写的深度学习教材，代码、讲解、视频齐全。"
+        - title: Lightning AI 大模型课程
+          url: https://lightning.ai/pages/courses/large-language-models/
+          description: "从预训练到 RLHF 的 LLM 全流程免费课程。"
+        - title: 斯坦福 CS224N
+          url: http://web.stanford.edu/class/cs224n/
+          description: "斯坦福自然语言处理经典课，课件与视频公开。"
+
+- taxonomy: 编程开发
+  icon: fas fa-code
+  list:
+    - term: 前端开发
+      links:
+        - title: MDN Web 文档
+          url: https://developer.mozilla.org/zh-CN/
+          description: "最权威的 HTML/CSS/JavaScript 参考文档。"
+        - title: 现代 JavaScript 教程
+          url: https://zh.javascript.info/
+          description: "从基础到进阶的完整 JS 教程，被译为中文。"
+        - title: freeCodeCamp
+          url: https://www.freecodecamp.org/
+          description: "免费编程学习平台，边学边闯关拿证书。"
+    - term: 后端与算法
+      links:
+        - title: 哈佛 CS50
+          url: https://cs50.harvard.edu/x/
+          description: "哈佛计算机科学导论，零基础友好，作业硬核。"
+        - title: 廖雪峰官方教程
+          url: https://www.liaoxuefeng.com/
+          description: "中文编程教程，覆盖 Git、Python、Java、SQL。"
+        - title: The Odin Project
+          url: https://www.theodinproject.com/
+          description: "免费全栈开发学习路径，项目驱动。"
+
+- taxonomy: 职场技能
+  icon: fas fa-briefcase
+  list:
+    - term: 办公效率
+      links:
+        - title: 微软 Office 支持
+          url: https://support.microsoft.com/zh-cn/office
+          description: "Word/Excel/PPT 官方帮助与视频教程。"
+        - title: Notion 帮助中心
+          url: https://www.notion.com/help
+          description: "Notion 官方指南，知识管理与协作工作流。"
+    - term: 表达与思维
+      links:
+        - title: TED 演讲
+          url: https://www.ted.com/
+          description: "全球顶级演讲视频，学表达也开眼界。"
+        - title: 一席
+          url: https://www.yixi.tv/
+          description: "中文人文演讲节目，练表达、长见识。"
+
+- taxonomy: 学习平台
+  icon: fas fa-graduation-cap
+  list:
+    - term: 综合慕课平台
+      links:
+        - title: 中国大学 MOOC
+          url: https://www.icourse163.org/
+          description: "国内高校官方慕课平台，课程全部免费。"
+        - title: 网易公开课
+          url: https://open.163.com/
+          description: "国内外名校公开课与纪录片资源。"
+        - title: Coursera
+          url: https://www.coursera.org/
+          description: "国际慕课平台，名校课程与专项证书。"
+        - title: edX
+          url: https://www.edx.org/
+          description: "哈佛与 MIT 创办的免费在线课程平台。"
+    - term: 免费资源站
+      links:
+        - title: 可汗学院
+          url: https://zh.khanacademy.org/
+          description: "全科目免费教育平台，数学内容尤其出色。"
+        - title: 哔哩哔哩
+          url: https://www.bilibili.com/
+          description: "B 站知识区，大量免费成体系的教学视频。"
+        - title: GitHub
+          url: https://github.com/
+          description: "开源社区，课程配套代码与项目实战都在这里。"
